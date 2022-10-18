@@ -1,0 +1,20 @@
+{
+  "name": "projectsmusic",
+  "version": "1.0.0",
+  "description": "Proyecto SASS, Gulp",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Eduardo Romero",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.55.0"
+  }
+}
