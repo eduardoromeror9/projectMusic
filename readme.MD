@@ -1,4 +1,7 @@
+# Para compilar sass
 
-`npm run dev`
+`npm run sass`
 
-`npm run tarea`
+# Para iniciar gulp
+
+`npm run css`
