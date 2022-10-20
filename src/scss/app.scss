@@ -1,11 +1,2 @@
-$colorPepsi: #004c97;
-$colorCoke: #e60000;
-
-body {
-  // background-color: $colorPepsi;
-  background-color: $colorCoke;
-}
-
-
-
-// color pepsi #004c97
+@use 'base';
+@use 'layout';

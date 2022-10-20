@@ -5,3 +5,5 @@
 # Para iniciar gulp
 
 `npm run css`
+`npx gulp dev`
+`npx run dev`
