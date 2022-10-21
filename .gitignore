@@ -150,5 +150,6 @@ dist
 build/
 img/
 video/
+main.py
 
 # End of https://www.toptal.com/developers/gitignore/api/node,sass
