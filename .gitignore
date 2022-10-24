@@ -151,5 +151,6 @@ build/
 img/
 video/
 main.py
+zPruebas/
 
 # End of https://www.toptal.com/developers/gitignore/api/node,sass
