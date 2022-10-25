@@ -40,14 +40,138 @@
 
   <section class="contenedor sobre-festival">
     <div class="imagen">
-      <img src="img/imagen_vocalista.jpg" alt="Imagen Vocalista">
+      <picture>
+        <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+        <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+        <img loading="lazy" width="200" height="300" src="build/img/imagen_vocalista.jpg" alt="Imagen Vocalista">
+      </picture>
     </div>
     <div class="contenido-festival">
       <h2>Pepsi Music Festival</h2>
       <p class="fecha">Marzo 2022, Santiago - Chile</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat architecto minima consectetur laborum aut a, deserunt amet vero! Quam sint minus aperiam, dolor labore repudiandae harum eum iste accusamus rerum!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat architecto minima consectetur laborum aut a,
+        deserunt amet vero! Quam sint minus aperiam, dolor labore repudiandae harum eum iste accusamus rerum!</p>
     </div>
   </section>
 
+  <section class="lineup">
+    <h3>Line Up</h3>
+    <p class="dia">Viernes 13</p>
+
+    <div class="escenarios-contenedor contenedor">
+      <div class="escenario rock bg-amarillo">
+        <p class="nombre-escenario">Escenario Rock</p>
+        <ul class="calendario">
+          <li>
+            24:00 - <span>Metallica</span>
+          </li>
+          <li>
+            22:00 - <span>Pearl Jam</span>
+          </li>
+          <li>
+            20:00 - <span>Queen</span>
+          </li>
+          <li>
+            19:00 - <span>U2</span>
+          </li>
+          <li>
+            18:00 - <span>Guns N' Roses</span>
+          </li>
+          <li>
+            17:00 - <span>Coldplay</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="escenario reggaeton bg-verde">
+        <p class="nombre-escenario">Escenario Reggaeton</p>
+        <ul class="calendario">
+          <li>
+            24:00 - <span>Daddy Yankee</span>
+          </li>
+          <li>
+            22:00 - <span>Bad Bunny</span>
+          </li>
+          <li>
+            20:00 - <span>Don Omar</span>
+          </li>
+          <li>
+            19:00 - <span>Jowell & Randy</span>
+          </li>
+
+          <li>
+            18:00 - <span>Ozuna</span>
+          </li>
+          <li>
+            17:00 - <span>Arcangel</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="dia">Sabado 14</p>
+
+    <div class="escenarios-contenedor contenedor">
+      <div class="escenario rock bg-verde">
+        <p class="nombre-escenario">Escenario Rock</p>
+        <ul class="calendario">
+          <li>
+            24:00 - <span>Red Hot Chili Peppers</span>
+          </li>
+          <li>
+            22:00 - <span>The Killers</span>
+          </li>
+          <li>
+            20:00 - <span>Led Zeppelin</span>
+          </li>
+          <li>
+            19:00 - <span>AC/DC</span>
+          </li>
+
+          <li>
+            18:00 - <span>Aerosmith</span>
+          </li>
+          <li>
+            17:00 - <span>Linkin Park</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="escenario reggaeton bg-amarillo">
+        <p class="nombre-escenario">Escenario Reggaeton</p>
+        <ul class="calendario">
+          <li>
+            24:00 - <span>Anuel</span>
+          </li>
+          <li>
+            22:00 - <span>Chyno y Nacho</span>
+          </li>
+          <li>
+            20:00 - <span>J balvin</span>
+          </li>
+          <li>
+            19:00 - <span>Nicky Jam</span>
+          </li>
+
+          <li>
+            18:00 - <span>Tego Calderon</span>
+          </li>
+          <li>
+            17:00 - <span>Hector El Father</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="galeria contenedor">
+    <h3>Galeria</h3>
+
+    <ul class="galeria-imagenes"></ul>
+  </section>
+
+  <script src="build/js/app.js"></script>
 </body>
 </html>
