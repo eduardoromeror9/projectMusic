@@ -52,7 +52,7 @@
             @include m.resetear-lista;
             
             li, :nth-child(odd) {
-                background-color: v.$blanco;
+                background-color: rgb(255, 255, 255);
                 padding: 1rem;
                 border-bottom: 1px solid v.$blanco;
             }
